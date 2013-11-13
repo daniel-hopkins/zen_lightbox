@@ -8,9 +8,6 @@
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: slimbox.php 2008-12-15 aclarke $
  */
-
-// @change Zen4All: removed in favor of loading Jquery from default jscript folder
-// echo '<script type="text/javascript" src="' . $template->get_template_dir('.js', DIR_WS_TEMPLATE, $current_page_base, 'jscript') . '/jquery-1.4.4.min.js"></script>';
 ?>
 
 <script language="javascript" type="text/javascript"><!--
