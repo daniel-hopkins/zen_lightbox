@@ -41,3 +41,4 @@ if (!/android|iphone|ipod|series60|symbian|windows ce|blackberry/i.test(navigato
 		});
 	});
 }
+/* Zen Lightbox v<?php echo ZEN_LIGHTBOX_VERSION . ' ' . ZEN_LIGHTBOX_RELEASE_DATE; ?> */
