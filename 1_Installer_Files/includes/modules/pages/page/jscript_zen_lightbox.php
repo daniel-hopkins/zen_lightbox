@@ -21,8 +21,8 @@ jQuery(function($) {
   <?php } ?>
   fileTypesString = <?php echo ("'" . ZEN_LIGHTBOX_FILE_TYPES . ",". "'");?>;
   fileTypes = $.each(fileTypesString.split(",").slice(0,-1), function(index, item) {
-    $("a[href*='"+item+"']").attr('rel', lightboxType); 
-    $("a[rel^='lightbox']").slimbox({<?php require_once(DIR_FS_CATALOG . DIR_WS_CLASSES . 'zen_lightbox/options.php'); ?>}, function(el) 
+    $("a[href*='."+item+"']").attr('rel', lightboxType);
+    $("a[rel^='lightbox']").slimbox({<?php require_once(DIR_FS_CATALOG . DIR_WS_CLASSES . 'zen_lightbox/options.php'); ?>}, function(el)
     {
             return [el.href, el.title /* + '<br /><a href="' + el.href + '">Download this image</a>'*/];
     }, function(el) {
